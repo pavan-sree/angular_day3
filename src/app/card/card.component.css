@@ -1,0 +1,40 @@
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  max-height: 500x;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+
+}
+.column{
+  display: flex;
+  justify-content: space-evenly;
+}
+.name{
+  text-align: center;
+  font-family: cursive;
+}
+.card-img-top{
+  width: 290px;
+  height: 200px;
+  border: 20px;
+}
+.container{
+  align-self: auto;
+}
+.heading{
+  top: 50px;
+  margin-left: 100px;
+  font-size: xx-large;
+  font-weight:700;
+  color: aliceblue;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: antiquewhite;
+  font-family: cursive;
+  font-weight:700;
+  background-size: 100px;
+}

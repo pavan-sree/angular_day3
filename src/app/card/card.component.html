@@ -1,0 +1,39 @@
+
+<div class="parallax">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">WELCOME TO KERALA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="next.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.tripadvisor.in/Attractions-g297631-Activities-Kerala.html">Hotspot</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <p class="heading">DISTRICTS</p>
+<div class="container">
+  <div class="row">
+    <div class="row">
+  <div class="card" style="width: 18rem; margin: 20px; width: 320px;"*ngFor="let item of collection" >
+    <img src="{{item.img}}" class="card-img-top" alt="..." style="margin: 2px;">
+    <p class="name">{{item.name}}</p>
+    <div class="card-body">
+      <h5 class="text-center">{{item.title}}</h5>
+      <div type="button" class="btn btn-primary">more info</div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+<footer>
+  Author : PAVAN SREEKUMAR
+</footer>
